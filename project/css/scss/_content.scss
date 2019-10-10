@@ -1,0 +1,41 @@
+/* Lorem Ipsum One */
+.Lorem-one {
+  padding: 60px;
+  text-align: left;
+  overflow: auto;
+  h2 {
+    padding: 50px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .row {
+    padding: 0 15px;
+    overflow-y: hidden;
+    overflow-x: auto;
+    display: flex;
+    .col {
+      margin: 0 20px;
+      .content {
+        width: 120%;
+        margin: 0 20px;
+        border-radius: 15px;
+        overflow: hidden;
+        .text {
+          h4 {
+            font-size: 15px;
+            font-weight: 600;
+            color: #262626;
+            padding: 5px 0;
+            font-family: 'Montserrat', sans-serif;
+          }
+          span {
+            font-size: 14px;
+            margin-bottom: 30px;
+            display: block;
+            font-family: 'Montserrat', sans-serif;
+          }
+        }
+      }
+    }
+  }
+}
+
